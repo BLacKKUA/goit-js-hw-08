@@ -19,4 +19,4 @@ const gallaryBlocks = galleryItems.map(({preview, original, description} = {}) =
 }).join("")
 galleryRef.insertAdjacentHTML('afterbegin', gallaryBlocks)
 
-let gallery = new SimpleLightbox('.gallery__link', {captionsData: "alt", captionDelay:"250"});
+new SimpleLightbox('.gallery__link', {captionsData: "alt", captionDelay:"250"});
